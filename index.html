@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+ <meta charset="utf-8" />
+ <title>Upwork-Talent on Demand Custom </title>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+ <meta name="keywords" content="Upwork Navigation" />
+ <meta name="description" content="This is custom upwork navigation created by Md Choyon Mia" />
+ <meta name="author" content="Md Choyon Mia" />
+ <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+ <script src="js/jquery-3.4.1.min.js"></script>
+ <script src="js/popper.min.js"></script>
+ <script src="js/slick.min.js"></script>
+ <link rel="stylesheet" type="text/css" href="css/slick.css" />
+ <link rel="stylesheet" type="text/css" href="css/all.min.css" />
+ <link rel="stylesheet" type="text/css" href="css/fontawesome.min.css" />
+ <link rel="stylesheet" type="text/css" href="css/animate.css" />
+ <link rel="stylesheet" type="text/css" href="css/style.css" />
+ <script src="js/wow.min.js"></script>
+ <link rel="icon" href="images/fav.png" type="image/png" sizes="16x16" />
+</head>
+<body>
+<!--Navbar Section Starts From Here-->
+<section class="container-fluid topNav" id="main">
+ <div class="container topNavContainer">
+  <nav class="navbar navbar-expand-lg"> 
+   <button class="navbar-toggler" onclick="openNav()" type="button" data-toggle="collapse" data-target="#mainNav">
+    <span class="navbar-toggler-icon">
+     <i class="fas fa-bars"></i>
+    </span>
+   </button>
+   <a class="navbar-brand" href="#">
+    <img src="images/alt.jpg" alt="Upwork Logo" />
+   </a>
+   <form action="#" method="post" id="navSearch">
+    <input list="sear" name="searc" placeholder="Find Professional & Agencies" />
+    <datalist id="sear">
+     <option value="Professionals & Agencies">
+     <option value="Job">
+    </datalist>
+    <button type="submit">
+     <i class="fas fa-search"></i>
+    </button>
+    <a href="javascript:void(0)" id="ang">
+     <i class="fa fa-angle-down"></i>
+    </a>
+    <div class="customDa">
+     <a href="#">Jobs</a>
+     <a href="#">Professionals & Agencies</a>
+    </div>
+   </form>
+   <a href="javascript:void(0)" id="smallSearch" onclick="openSearch()">
+    <i class="fas fa-search"></i>
+   </a> 
+   <div class="collapse navbar-collapse" id="mainNav">
+    <ul class="navbar-nav ml-auto">
+     <li class="nav-item dropd">
+      <a class="nav-link" href="#">HOW IT WORKS</a>
+      <div class="dropdMenu">
+       <h6>BUSINESS SIZE</h6>
+       <a class="dropdItem" href="#">10-100 Employees</a>
+       <a class="dropdItem" href="#">100-1000 Employees</a>
+       <a class="dropdItem" href="#">1000+ Employees</a>
+       <hr />
+       <h6>DEPARTMENT</h6>
+       <a class="dropdItem" href="#">Marketing</a>
+       <a class="dropdItem" href="#">Operations</a>
+       <a class="dropdItem" href="#">Engineering</a>
+      </div>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link" href="#">LOG IN</a>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link" href="#">SIGN UP</a>
+     </li>
+     <li class="nav-item jobButton">
+      <a class="nav-link" href="#">Post a Job</a>
+     </li>	 
+    </ul>
+   </div>
+  </nav>
+ </div>
+</section>
+<div class="animSearch" id="sui2">
+ <input type="text" name="search" id="sui" placeholder="Find Professional & Agencies" />
+ <a href="javascript:void(0)" onclick="closeSearch()">&times;</a>
+ <a href="#" id="bng">
+     <i class="fas fa-search"></i>
+ </a>
+    <a href="javascript:void(0)" id="ang2">
+     <i class="fa fa-angle-down"></i>
+    </a>
+</div>
+<!--FullScreen Overlay Starts-->
+<div id="myNav" class="overlay container-fluid">
+ <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+ <a href="#" id="resImg">
+  <img src="images/alt.jpg" alt="Upwork Logo" />
+ </a>
+ <form action="#" method="post" id="navSearch">
+    <input list="sear" name="searc" placeholder="Find Professional & Agencies" />
+    <datalist id="sear">
+     <option value="Professionals & Agencies">
+     <option value="Job">
+    </datalist>
+    <button type="submit">
+     <i class="fas fa-search"></i>
+    </button>
+    <a href="javascript:void(0)" id="ang">
+     <i class="fa fa-angle-down"></i>
+    </a>
+   </form>
+ <div class="row">
+  <div class="col-md-6 col-sm-12">
+   <a href="#">LOG IN</a>
+   <a href="#">SIGN UP</a>
+   <div class="nav-item dropd">
+      <a class="nav-link" href="#">SOLUTIONS</a>
+      <div class="dropdMenu">
+       <h6>BUSINESS SIZE</h6>
+       <a class="dropdItem" href="#">10-100 Employees</a>
+       <a class="dropdItem" href="#">100-1000 Employees</a>
+       <a class="dropdItem" href="#">1000+ Employees</a>
+       <hr />
+       <h6>DEPARTMENT</h6>
+       <a class="dropdItem" href="#">Marketing</a>
+       <a class="dropdItem" href="#">Operations</a>
+       <a class="dropdItem" href="#">Engineering</a>
+      </div>
+     </div>
+   <a href="#">ABOUT US</a>
+   <a href="#">CONTACT US</a>
+   <a href="#">CAREERS</a>
+  </div>
+  <div class="col-md-6 col-sm-0 ddd">
+   <div class="dropdMenu">
+     <h5>SOLUTIONS</h5>
+       <h6>BUSINESS SIZE</h6>
+       <a class="dropdItem" href="#">10-100 Employees</a>
+       <a class="dropdItem" href="#">100-1000 Employees</a>
+       <a class="dropdItem" href="#">1000+ Employees</a>
+       <hr />
+       <h6>DEPARTMENT</h6>
+       <a class="dropdItem" href="#">Marketing</a>
+       <a class="dropdItem" href="#">Operations</a>
+       <a class="dropdItem" href="#">Engineering</a>
+      </div>
+  </div>
+ </div>
+ <div class="bfix"><a href="#">Post a Job</a></div>
+</div>
+<!--FullScreen Overlay Ends-->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
